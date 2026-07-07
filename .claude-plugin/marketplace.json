@@ -1,0 +1,38 @@
+{
+  "name": "bounceban-plugins",
+  "owner": {
+    "name": "BounceBan",
+    "email": "dev@bounceban.com",
+    "url": "https://bounceban.com"
+  },
+  "description": "Plugins by BounceBan for email verification and deliverability workflows in Claude Code.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "bounceban",
+      "source": {
+        "source": "github",
+        "repo": "bounceban-com/claudecode-plugin-email-verification"
+      },
+      "description": "Verify email addresses with the BounceBan API: single and bulk verification specializing in catch-all (accept-all) and SEG-protected emails, quick free/disposable/role/syntax checks, credits and rate-limit management, and webhooks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "BounceBan",
+        "email": "dev@bounceban.com",
+        "url": "https://bounceban.com"
+      },
+      "homepage": "https://bounceban.com/public/doc/api.html",
+      "repository": "https://github.com/bounceban-com/claudecode-plugin-email-verification",
+      "license": "MIT",
+      "keywords": [
+        "email",
+        "email-verification",
+        "deliverability",
+        "catch-all",
+        "list-cleaning",
+        "bounceban"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
