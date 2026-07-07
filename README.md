@@ -7,7 +7,7 @@ A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-market
 Add the marketplace:
 
 ```shell
-/plugin marketplace add bounceban-com/claudecode-marketplace
+/plugin marketplace add bounceban-com/bounceban-plugins
 ```
 
 Then install a plugin:
